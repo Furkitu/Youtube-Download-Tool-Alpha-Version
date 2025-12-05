@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Mac
+.DS_Store
+
+# PyInstaller & Build
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+
+# User specific
+*.mp4
+*.mp3
+*.webm

@@ -23,7 +23,7 @@ for /f "delims=" %%i in ('python -c "import customtkinter; print(customtkinter._
 
 pyinstaller --noconfirm --onedir --windowed --name "YouTubeIndirici" ^
     --add-data "%CTK_PATH%;customtkinter/" ^
-    --icon=NONE ^
+    --icon="app_icon.ico" ^
     main.py
 
 echo.

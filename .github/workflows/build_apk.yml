@@ -31,8 +31,9 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          cp requirements_android.txt requirements.txt
           pip install flet
-          pip install -r requirements_android.txt
+          pip install -r requirements.txt
 
       - name: Build APK
         run: |
